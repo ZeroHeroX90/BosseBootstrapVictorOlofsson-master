@@ -1,0 +1,131 @@
+/*css style written by Victor Olofsson */
+/* IMPORTS */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* END IMPORTS */
+
+
+
+/* START STANDARD TAG STYLE */
+
+h1, h2, h3, h4, h5, h6, p, q, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* END STANDARD TAG STYLE */
+
+/* START CLASSES */
+
+.navbar {
+
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.img-personal {
+    border-radius: 50%;
+}
+
+.img-settings-personal {
+    width: 700px;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.content-personal-description {
+    margin-left: 30px;
+}
+
+.hr-style {
+    color: #000;
+}
+
+.navbar {
+    
+    text-decoration: none;
+}
+
+/* END CLASSES */
+
+/* START ID'S */
+
+#wowslider-container1 {
+
+}
+
+#script-snow {
+    position: absolute;
+}
+
+#salongen {
+    
+}
+
+#personal-section {
+    margin-top: 5%;
+}
+
+#wowslider-container1 {
+
+}
+
+#section-map {
+    margin-bottom: 6%;
+}
+
+#intro {
+    background-color: #666; 
+    height: 85%;
+}
+/* END ID'S */
